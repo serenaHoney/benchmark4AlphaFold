@@ -23,4 +23,4 @@ jobs:
       env:
         CHATGPT_ORG_ID: ${{ secrets.CHATGPT_ORG_ID }}
         CHATGPT_API_KEY: ${{ secrets.CHATGPT_API_KEY }}
-      run: python your_script.py
+      run: python benchmarking_file.py
